@@ -1,9 +1,11 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
+sitemap: false
 ---
 
 @charset "utf-8";
 
+@import "so-simple/skins/{{site.so-simple_skins | default: 'default'}}";
 @import "so-simple";
 
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Roboto:wght@100;300;400;500&display=swap');
